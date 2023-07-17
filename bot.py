@@ -44,7 +44,7 @@ def show_commands(chat_id):
 		chat_id,
 		"По кнопке ниже можно посмотреть фото, доступна команда /help для "
 		"показа доступных действий и /repo для получения ссылки на "
-		"репозиторий",
+		"репозиторий.",
 		reply_markup=make_markup()
 	)
 	bot.send_message(
